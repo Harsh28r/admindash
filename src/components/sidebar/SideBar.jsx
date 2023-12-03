@@ -14,6 +14,7 @@ import SecurityIcon from '@material-ui/icons/Security';
 import { Link } from 'react-router-dom';
 import { DarkModeContext } from "../../context/darkModeContext"
 import { useContext } from "react";
+// eslint-disable-next-line
 import { type } from '@testing-library/user-event/dist/type';
 
 const SideBar = () => {
@@ -23,7 +24,7 @@ const SideBar = () => {
         <div className='sidebar'>
             <div className='top'>
                 <Link to='/' style={{ textDecoration: "none" }}>
-                    <span className="logo" >Ammar</span>
+                    <span className="logo" >Harsh</span>
                 </Link>
             </div>
             <hr />
